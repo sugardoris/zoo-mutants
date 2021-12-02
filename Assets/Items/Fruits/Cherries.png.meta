@@ -54,7 +54,7 @@ TextureImporter:
       213: -7347827468922994342
     second: Cherries_16
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -74,6 +74,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -83,8 +84,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -96,7 +97,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,9 +106,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +138,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -140,10 +157,10 @@ TextureImporter:
       name: Cherries_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 9
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,7 +168,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4fe1e6333f132a4c8fe6cfceab02597
+      spriteID: 0814098dedf2290c0800000000000000
       internalID: -4570538037665054336
       vertices: []
       indices: 
@@ -161,10 +178,10 @@ TextureImporter:
       name: Cherries_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 41
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,7 +189,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b88e096151df024b885fbaa533f6419
+      spriteID: 831ef0c6748ec8010800000000000000
       internalID: 1192583394799640888
       vertices: []
       indices: 
@@ -182,10 +199,10 @@ TextureImporter:
       name: Cherries_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 73
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906f14158141da745a61b3fbac907963
+      spriteID: 0f6f4d4a9486026f0800000000000000
       internalID: -711454075617216784
       vertices: []
       indices: 
@@ -203,10 +220,10 @@ TextureImporter:
       name: Cherries_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 105
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,7 +231,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f5201d23c9e32b4d8984b952b63712d
+      spriteID: 5b514ea963c5e3b40800000000000000
       internalID: 5421872390997284277
       vertices: []
       indices: 
@@ -224,10 +241,10 @@ TextureImporter:
       name: Cherries_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
+        x: 137
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,7 +252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf5081d34ab54d429af517153a2d5ca
+      spriteID: c545f0c6d44907a40800000000000000
       internalID: 5363950216444597340
       vertices: []
       indices: 
@@ -245,10 +262,10 @@ TextureImporter:
       name: Cherries_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
+        x: 169
+        y: 8
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,7 +273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30b5f7e88093b564fbab32024ff6c538
+      spriteID: f05fdf95692749580800000000000000
       internalID: -8821299780031482609
       vertices: []
       indices: 
@@ -266,10 +283,10 @@ TextureImporter:
       name: Cherries_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
+        x: 202
+        y: 7
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,7 +294,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 080b23256625a2443a0a6d57ed4e9e9a
+      spriteID: 841e8e3fbafedee00800000000000000
       internalID: 1075779407821988168
       vertices: []
       indices: 
@@ -287,10 +304,10 @@ TextureImporter:
       name: Cherries_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
+        x: 234
+        y: 7
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,7 +315,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc235a8610ade94b91df9f90ea4f846
+      spriteID: 7f7f3bffc9c750a70800000000000000
       internalID: 8792570861257488375
       vertices: []
       indices: 
@@ -308,10 +325,10 @@ TextureImporter:
       name: Cherries_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
+        x: 266
+        y: 7
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,7 +336,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91709365c818266408d23b27fee839fd
+      spriteID: a1002ec2b1e4b5a20800000000000000
       internalID: 3052119051097735194
       vertices: []
       indices: 
@@ -329,10 +346,10 @@ TextureImporter:
       name: Cherries_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
+        x: 297
+        y: 8
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,7 +357,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d06141bdfa91f04795dfae6e59263c0
+      spriteID: 3446d2f4e42cc9860800000000000000
       internalID: 7538113517902980163
       vertices: []
       indices: 
@@ -350,10 +367,10 @@ TextureImporter:
       name: Cherries_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
+        x: 329
+        y: 8
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,7 +378,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4889852de374c40a2c352441079c9e
+      spriteID: a60bbd3a22ef96530800000000000000
       internalID: 3848886781296226410
       vertices: []
       indices: 
@@ -371,10 +388,10 @@ TextureImporter:
       name: Cherries_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
+        x: 360
+        y: 9
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,7 +399,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f051544de22026347939e51a56050c03
+      spriteID: f0f9e5f1c9130fc60800000000000000
       internalID: 7849828697117728527
       vertices: []
       indices: 
@@ -392,10 +409,10 @@ TextureImporter:
       name: Cherries_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
+        x: 391
+        y: 10
+        width: 18
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,7 +420,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d91d55392beba0439a6f68c225f73e9
+      spriteID: 77ff908d576c95080800000000000000
       internalID: -9198102554489520265
       vertices: []
       indices: 
@@ -413,10 +430,10 @@ TextureImporter:
       name: Cherries_13
       rect:
         serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
+        x: 423
+        y: 10
+        width: 18
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,7 +441,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 422b04abe515f16498ea6ff82e072eab
+      spriteID: 0970c7a6d9a43b630800000000000000
       internalID: 3941576138836150160
       vertices: []
       indices: 
@@ -434,10 +451,10 @@ TextureImporter:
       name: Cherries_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
+        x: 455
+        y: 10
+        width: 18
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,7 +462,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197202fe0e245f74e96f1f13d47b6e63
+      spriteID: ee4395041ce1a9740800000000000000
       internalID: 5159470138463433966
       vertices: []
       indices: 
@@ -455,10 +472,10 @@ TextureImporter:
       name: Cherries_15
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
+        x: 488
+        y: 9
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,7 +483,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43c1cd70622bae945ad3ea2f936d4e99
+      spriteID: 05f52a17cb5b9c9f0800000000000000
       internalID: -447626866981707952
       vertices: []
       indices: 
@@ -476,10 +493,10 @@ TextureImporter:
       name: Cherries_16
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 32
-        height: 32
+        x: 520
+        y: 9
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,7 +504,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e0507f737783a849bba74c4645466e6
+      spriteID: a51ccf3f8d5470a90800000000000000
       internalID: -7347827468922994342
       vertices: []
       indices: 
