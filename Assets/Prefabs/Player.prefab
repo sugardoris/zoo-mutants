@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6661898112267668751}
   - component: {fileID: 5045287010098044780}
   - component: {fileID: 5045287010098044781}
-  - component: {fileID: 5045287010098044777}
   - component: {fileID: 5045287010098044778}
+  - component: {fileID: 6036696390556949650}
+  - component: {fileID: -1423782318597423309}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -104,36 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!60 &5045287010098044777
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7884103264599568316}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.375, y: 1.5}
-    newSize: {x: 1.375, y: 1.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.6875, y: -0.75}
-      - {x: 0.6875, y: -0.75}
-      - {x: 0.6875, y: 0.75}
-      - {x: -0.5625, y: 0.75}
-      - {x: -0.6875, y: 0.625}
 --- !u!50 &5045287010098044778
 Rigidbody2D:
   serializedVersion: 4
@@ -155,3 +126,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!70 &6036696390556949650
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7884103264599568316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0021343231, y: -0.0021343231}
+  m_Size: {x: 1.5158653, y: 1.605506}
+  m_Direction: 0
+--- !u!114 &-1423782318597423309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7884103264599568316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b704a88607233498e74f4b0c8b1650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 7
+  jumpHeight: 10
+  gravityScale: 1.5

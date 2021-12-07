@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9211773318762009282}
   - component: {fileID: 4353320742123490642}
   - component: {fileID: 4353320742123490645}
+  - component: {fileID: 7645313589221693520}
   m_Layer: 0
   m_Name: AngryPlant
   m_TagString: Untagged
@@ -102,3 +103,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &7645313589221693520
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7812198882719133983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.75, y: 2.1875}
+    newSize: {x: 1.75, y: 2.1875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.875, y: 1.09375}
+      - {x: -0.875, y: -0.40625}
+      - {x: -0.5, y: -1.09375}
+      - {x: 0.5625, y: -1.09375}
+      - {x: 0.875, y: -0.65625}
+      - {x: 0.875, y: 1.03125}
+      - {x: 0.75, y: 1.09375}

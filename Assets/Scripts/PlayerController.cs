@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D r2d;
     CapsuleCollider2D mainCollider;
     Transform t;
+    private float moveValue = 0f;
 
     // Use this for initialization
     void Start()
@@ -38,12 +39,14 @@ public class PlayerController : MonoBehaviour
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
         {
             moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
+            moveValue = 1f;
         }
         else
         {
             if (isGrounded || r2d.velocity.magnitude < 0.01f)
             {
                 moveDirection = 0;
+                moveValue = 0f;
             }
         }
 
