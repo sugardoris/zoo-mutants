@@ -15,7 +15,7 @@ TextureImporter:
       213: -2302652882638960745
     second: Fall (40x48)_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,6 +35,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,8 +45,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -57,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,9 +67,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -94,6 +99,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -101,10 +118,10 @@ TextureImporter:
       name: Fall (40x48)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 40
-        height: 48
+        x: 2
+        y: 4
+        width: 35
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,7 +129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a570066ccbb2447b1a08832b8a9c8a
+      spriteID: 40aa1771f65ede7a0800000000000000
       internalID: -6346164034597705212
       vertices: []
       indices: 
@@ -122,10 +139,10 @@ TextureImporter:
       name: Fall (40x48)_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 40
-        height: 48
+        x: 42
+        y: 4
+        width: 35
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a42a34d2b32764ba04ee4b66f9fa5d
+      spriteID: 3db7ae91dbfa0d2c0800000000000000
       internalID: -4408830808477238317
       vertices: []
       indices: 
@@ -143,10 +160,10 @@ TextureImporter:
       name: Fall (40x48)_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 40
-        height: 48
+        x: 82
+        y: 4
+        width: 35
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,7 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93ca2c25decfb247942ebb216339ef9
+      spriteID: 5aeff7c33497d2d80800000000000000
       internalID: -8273823610724942171
       vertices: []
       indices: 
@@ -164,10 +181,10 @@ TextureImporter:
       name: Fall (40x48)_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 40
-        height: 48
+        x: 123
+        y: 3
+        width: 33
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a1108d52919684dad7d387a5c8ff67
+      spriteID: 797864937655b00e0800000000000000
       internalID: -2302652882638960745
       vertices: []
       indices: 

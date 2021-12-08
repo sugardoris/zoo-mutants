@@ -18,7 +18,7 @@ TextureImporter:
       213: -6399027368534209264
     second: Hit (40x48)_4
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -38,6 +38,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,8 +48,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -60,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +70,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -97,6 +102,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -105,9 +122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 40
-        height: 48
+        y: 7
+        width: 39
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,7 +132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80a9970b1b5b9a14fa9f80d59f2acc4e
+      spriteID: 3d99f87bd67c39c20800000000000000
       internalID: 3212130233290299859
       vertices: []
       indices: 
@@ -126,9 +143,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 0
-        width: 40
-        height: 48
+        y: 7
+        width: 39
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4abafaf32296e439d1cf45a9863f08
+      spriteID: cf56ce40511964e70800000000000000
       internalID: 9099119616611608060
       vertices: []
       indices: 
@@ -146,10 +163,10 @@ TextureImporter:
       name: Hit (40x48)_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 40
-        height: 48
+        x: 82
+        y: 6
+        width: 37
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd6778357945204448a6d8e2d3bb5bbc
+      spriteID: f416430a4a08b2050800000000000000
       internalID: 5776852391583572303
       vertices: []
       indices: 
@@ -167,10 +184,10 @@ TextureImporter:
       name: Hit (40x48)_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 40
-        height: 48
+        x: 122
+        y: 5
+        width: 35
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 809060e422668c44489e0f9902cd5c73
+      spriteID: 6ccf03c3891b02d30800000000000000
       internalID: 4404715702971333830
       vertices: []
       indices: 
@@ -188,10 +205,10 @@ TextureImporter:
       name: Hit (40x48)_4
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 40
-        height: 48
+        x: 162
+        y: 4
+        width: 35
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c4995e801844549b03e46dfca6307c
+      spriteID: 01d048603861237a0800000000000000
       internalID: -6399027368534209264
       vertices: []
       indices: 
