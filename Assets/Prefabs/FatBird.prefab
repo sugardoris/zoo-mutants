@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7420971315096655039}
   - component: {fileID: -1079003935663002402}
   - component: {fileID: -7673120079460458008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FatBird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,9 +71,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1025407677
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8116256361858104333, guid: 60beccb521110cf40be533c702156072, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
