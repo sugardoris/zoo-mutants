@@ -123,11 +123,135 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &4044826 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 266986108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &4044827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &8045715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1748191458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &8045716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8045715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &12936055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 69472190}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &19335529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1657301609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &19335530
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19335529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &26435500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 2101549653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &26435501
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26435500}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &33046824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,6 +259,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3247731650446350671, guid: fa6144f6c21682b4889214f6c17957d7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045287010098044781, guid: fa6144f6c21682b4889214f6c17957d7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6661898112267668751, guid: fa6144f6c21682b4889214f6c17957d7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -183,8 +315,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3247731650446350671, guid: fa6144f6c21682b4889214f6c17957d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fa6144f6c21682b4889214f6c17957d7, type: 3}
+--- !u!1 &39926420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 69472190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &39926421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39926420}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &42623360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -197,6 +361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -5290593623411849023, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1724021531799052440, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -257,6 +425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeHead (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2783732504708977489, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
 --- !u!1001 &58023375
@@ -266,9 +438,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -388,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &70532418 stripped
@@ -402,9 +586,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -457,6 +649,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
   m_PrefabInstance: {fileID: 85505549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &90030493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1875919687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &90030494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90030493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &120310738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -517,6 +740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &127147286 stripped
@@ -524,6 +751,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1107784105}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &129138667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 258807403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &129138668
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129138667}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &136875064 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -536,9 +794,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -593,9 +859,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -660,9 +934,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -720,6 +1002,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
   m_PrefabInstance: {fileID: 151812549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &193505293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 812565939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &193505294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193505293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &193997442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -730,6 +1043,14 @@ PrefabInstance:
     - target: {fileID: 3648735080747308367, guid: caae04e846672514a923e126c59cce52, type: 3}
       propertyPath: m_Name
       value: Rhino
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648735080747308367, guid: caae04e846672514a923e126c59cce52, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112638666312059811, guid: caae04e846672514a923e126c59cce52, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5996538842396797584, guid: caae04e846672514a923e126c59cce52, type: 3}
       propertyPath: m_RootOrder
@@ -836,6 +1157,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1028,8 +1353,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &239946934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1965362283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &239946935
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239946934}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &250909884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1084,6 +1444,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1147,6 +1511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &266986108
@@ -1204,6 +1572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &280120018
@@ -1213,6 +1585,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -5290593623411849023, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1724021531799052440, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1272,6 +1648,10 @@ PrefabInstance:
     - target: {fileID: 2783732504708977489, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
       propertyPath: m_Name
       value: SpikeHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783732504708977489, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
@@ -1360,6 +1740,130 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &301335739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 2026532874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &301335740
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301335739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &305848405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1924225720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &305848406
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305848405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &309611585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1770055215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &309611586
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309611585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &312181768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1070201817}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &312181769
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312181768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &313757927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1419,6 +1923,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1538,6 +2046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &320972134
@@ -1607,6 +2119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FatBird (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6887795564190787527, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
 --- !u!4 &322620557 stripped
@@ -1621,6 +2137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1077104695}
     m_Modifications:
+    - target: {fileID: -1079003935663002402, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1626713109595462446, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1681,8 +2201,69 @@ PrefabInstance:
       propertyPath: m_Name
       value: FatBird
       objectReference: {fileID: 0}
+    - target: {fileID: 6887795564190787527, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
+--- !u!1001 &345261799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3172796854496919320, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172796854496919323, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2791cb21b5ced40bd259a413bd761e, type: 3}
 --- !u!1001 &346161154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1738,8 +2319,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &361006597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 456695682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &361006598
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361006597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &370580452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1750,6 +2366,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 2064931685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &373834625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1839053631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &373834626
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373834625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &376993078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,6 +2479,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &389288792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1481785858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &389288793
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389288792}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &404588969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1567811496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &404588970
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404588969}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &418956518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 876470754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &418956519
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418956518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &423730343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -1844,9 +2584,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -1966,6 +2714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &456695682
@@ -2023,6 +2775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &462145736
@@ -2079,6 +2835,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -2152,8 +2912,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &540042574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1198270226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &540042575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540042574}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &550664682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,6 +3049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &599279166
@@ -2311,6 +3110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &601008250 stripped
@@ -2318,6 +3121,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 195604098}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &606821436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 318667753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &606821437
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606821436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &607239564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,6 +3281,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &618388895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 316122010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &618388896
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618388895}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &622957872 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1626713109595462446, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
@@ -2506,6 +3371,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -2693,8 +3562,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &697010762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 640759545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &697010763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697010762}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &705914186 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -2707,9 +3611,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -2827,6 +3739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &780289770 stripped
@@ -2888,6 +3804,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3033,6 +3953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &831784949 stripped
@@ -3095,6 +4019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &845371225 stripped
@@ -3102,6 +4030,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1469938743}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &872821109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1032855551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &872821110
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872821109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &876470754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3156,6 +4115,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3214,6 +4177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &910831235
@@ -3271,13 +4238,110 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &939823074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1098261372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &939823075
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939823074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &961181712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 790264053}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &964202329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 2064931685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &964202330
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964202329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &974690282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1229176367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &974690283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974690282}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &984634197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3342,6 +4406,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3437,6 +4505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1060745629 stripped
@@ -3449,6 +4521,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1481785858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1069415516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1440655525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1069415517
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069415516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1070201817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3503,6 +4606,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3561,6 +4668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1076161646 stripped
@@ -3604,14 +4715,45 @@ Transform:
   - {fileID: 2003534212}
   - {fileID: 622957872}
   - {fileID: 2134754586}
-  - {fileID: 1541739840}
   - {fileID: 1553188337}
   - {fileID: 1835151055}
+  - {fileID: 1541739840}
   - {fileID: 1422856694}
   - {fileID: 1587475339}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1093456656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 596525967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1093456657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093456656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1098261372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3666,6 +4808,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3724,6 +4870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1115455273 stripped
@@ -3731,6 +4881,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1372803157}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1129186986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 893312710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1129186987
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129186986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1131230479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -3791,6 +4972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1147119994 stripped
@@ -3805,9 +4990,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -3860,6 +5053,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
   m_PrefabInstance: {fileID: 1158336413}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1167303822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 346161154}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1167303823
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167303822}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &1172074837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3965,6 +5189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &1229176367
@@ -4022,6 +5250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1241530205 stripped
@@ -4039,6 +5271,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
   m_PrefabInstance: {fileID: 1268947901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1268615412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 767379710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1268615413
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268615412}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1268947901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4046,9 +5309,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -4096,11 +5367,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+--- !u!1 &1278647798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1300462181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1278647799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278647798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1290736990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 2022806120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1295145077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 521963146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1295145078
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295145077}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1300462181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4156,8 +5489,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1304014383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1654133187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1304014384
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304014383}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1311150058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4165,9 +5533,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -4227,6 +5603,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+--- !u!1 &1347516148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1774262859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1347516149
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347516148}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1372596792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4281,6 +5688,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4339,8 +5750,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1379628359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 2022806120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1379628360
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379628359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1384195063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4351,6 +5797,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 266986108}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401946926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1372596792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1401946927
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401946926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1402843342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4363,6 +5840,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1077104695}
     m_Modifications:
+    - target: {fileID: 6898275141970813843, guid: a6c294be2c5de204db2fb052e5a97edf, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7098610864690794318, guid: a6c294be2c5de204db2fb052e5a97edf, type: 3}
       propertyPath: m_SortingLayer
       value: 1
@@ -4382,6 +5863,10 @@ PrefabInstance:
     - target: {fileID: 8696136534244340548, guid: a6c294be2c5de204db2fb052e5a97edf, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696136534244340548, guid: a6c294be2c5de204db2fb052e5a97edf, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 9115186545892280453, guid: a6c294be2c5de204db2fb052e5a97edf, type: 3}
       propertyPath: m_RootOrder
@@ -4506,6 +5991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1440655526 stripped
@@ -4518,6 +6007,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1714014952}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1461793316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1611512221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1461793317
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461793316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1467165737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
@@ -4577,6 +6097,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4645,8 +6169,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1486362665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 444484331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1486362666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486362665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1500280051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4686,6 +6245,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1511663426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 677865580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1511663427
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511663426}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1520071662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -4742,9 +6332,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7674871768150963111, guid: 01cea010619b2c04385da7db0b75f2f7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674871768150963111, guid: 01cea010619b2c04385da7db0b75f2f7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8279810632293937528, guid: 01cea010619b2c04385da7db0b75f2f7, type: 3}
       propertyPath: m_Name
       value: BlueBird
+      objectReference: {fileID: 0}
+    - target: {fileID: 8279810632293937528, guid: 01cea010619b2c04385da7db0b75f2f7, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01cea010619b2c04385da7db0b75f2f7, type: 3}
@@ -4768,6 +6370,10 @@ PrefabInstance:
     - target: {fileID: 682979910567335255, guid: 31d85479f8a8ffd459f829c269f73409, type: 3}
       propertyPath: m_Name
       value: End
+      objectReference: {fileID: 0}
+    - target: {fileID: 682979910567335255, guid: 31d85479f8a8ffd459f829c269f73409, type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 7470661989943313801, guid: 31d85479f8a8ffd459f829c269f73409, type: 3}
       propertyPath: m_RootOrder
@@ -4838,9 +6444,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1480486964271327438, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_LocalScale.x
@@ -4908,6 +6518,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -5290593623411849023, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1724021531799052440, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4968,6 +6582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeHead (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2783732504708977489, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
 --- !u!1001 &1556418236
@@ -5024,6 +6642,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -5139,8 +6761,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1577524840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 790264053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1577524841
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577524840}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1583178327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -5156,6 +6813,10 @@ PrefabInstance:
     - target: {fileID: 1480486964271327438, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_Name
       value: Bee
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480486964271327438, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_RootOrder
@@ -5213,6 +6874,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9174661228339810281, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
 --- !u!4 &1587475339 stripped
@@ -5220,6 +6885,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
   m_PrefabInstance: {fileID: 1587475338}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1599470714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1044357457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1599470715
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599470714}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1607817964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -5285,8 +6981,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1613566595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 250909884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1613566596
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613566595}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &1623205079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1372803157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1623205080
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623205079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1654133187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5341,6 +7103,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -5399,6 +7165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!1001 &1674196742
@@ -5455,6 +7225,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -5513,8 +7287,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1688424755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1556418236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1688424756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688424755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &1709505587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7992,8 +9801,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1719864963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 910831235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1719864964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719864963}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &1729617271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1929078399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1729617272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729617271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &1737003653
 GameObject:
   m_ObjectHideFlags: 0
@@ -8130,6 +10005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1077104695}
     m_Modifications:
+    - target: {fileID: -8988477527432048529, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4395740201970424956, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -8177,6 +10056,10 @@ PrefabInstance:
     - target: {fileID: 7416178044039917528, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
       propertyPath: m_Name
       value: Chameleon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416178044039917528, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
@@ -8234,6 +10117,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -20949,6 +22836,37 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1765075502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1076161645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1765075503
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765075502}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1767134541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21003,6 +22921,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -21061,8 +22983,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1772226181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1674196742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1772226182
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772226181}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1774262859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21118,6 +23075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1785338306 stripped
@@ -21130,6 +23091,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1567811496}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1820559995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1107784105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1820559996
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820559995}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &1829261967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 599279166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1829261968
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829261967}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1835151054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21141,9 +23164,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1480486964271327438, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_LocalScale.x
@@ -21196,6 +23223,10 @@ PrefabInstance:
     - target: {fileID: 8714895756592419876, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174661228339810281, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 237e98e1cff11414d9736db4475f0f74, type: 3}
@@ -21258,6 +23289,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -21344,7 +23379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852259534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.354967, y: -1.6150382, z: -10}
+  m_LocalPosition: {x: -5.359316, y: -1.5809901, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -21439,6 +23474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1853316990 stripped
@@ -21451,6 +23490,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 521963146}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1864526698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1853316989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1864526699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864526698}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1875919687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21506,13 +23576,79 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1882265258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 205176047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1882265259
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882265258}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1887809005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1686193470}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1891526683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 122886592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1891526684
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891526683}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1899581111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -21618,9 +23754,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -21723,8 +23867,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+--- !u!1 &1928133367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1686193470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1928133368
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928133367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1929078399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21780,6 +23959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1940923511 stripped
@@ -21792,6 +23975,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1556418236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1957689512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1469938743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1957689513
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957689512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &1965362283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21847,6 +24061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &1965362284 stripped
@@ -21854,6 +24072,165 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 1965362283}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1966552784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1714014952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1966552785
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966552784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1001 &1977022449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8363928422086032781, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8363928422086032817, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72146b16ac3bb724cb55a8a0e5a59e21, type: 3}
+--- !u!1 &1990126853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 462145736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1990126854
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990126853}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &2003534212 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1626713109595462446, guid: b8ad6d77170f1f042ac3f1852ae624be, type: 3}
@@ -21910,9 +24287,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5198461245185807528, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8031964661890981031, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
       propertyPath: m_Name
       value: Cherries (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8031964661890981031, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
+      propertyPath: m_TagString
+      value: Fruit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
@@ -21976,6 +24361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &2024775112 stripped
@@ -22038,6 +24427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &2026532875 stripped
@@ -22050,6 +24443,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1724021531799052440, guid: 953fdc93927f21546a23c72ffbebc4dc, type: 3}
   m_PrefabInstance: {fileID: 280120018}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2034569890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 195604098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2034569891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034569890}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &2040061183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1131396544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2040061184
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040061183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &2062675445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22104,6 +24559,10 @@ PrefabInstance:
     - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
       propertyPath: m_Name
       value: Coin (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
@@ -22162,6 +24621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &2071352649 stripped
@@ -22169,6 +24632,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5631095285728613972, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
   m_PrefabInstance: {fileID: 893312710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2080488709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 1767134541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2080488710
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080488709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
+--- !u!1 &2086484756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 844686501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2086484757
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086484756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!1001 &2099898365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22220,9 +24745,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5198461245185807528, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8031964661890981031, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
       propertyPath: m_Name
       value: Cherries
+      objectReference: {fileID: 0}
+    - target: {fileID: 8031964661890981031, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
+      propertyPath: m_TagString
+      value: Fruit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43989fdab31e0674381dfc49553f35a7, type: 3}
@@ -22281,6 +24814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
 --- !u!4 &2112707788 stripped
@@ -22295,9 +24832,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172074838}
     m_Modifications:
+    - target: {fileID: -4618727996237165037, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_Name
       value: Fire (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 254067425913680522, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2728049914353643703, guid: 64c1cfd7a2077244ba0e97097a18b2a2, type: 3}
       propertyPath: m_RootOrder
@@ -22360,3 +24905,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4395740201970424956, guid: 834e1fb84eb3d784282baf2e086d28ed, type: 3}
   m_PrefabInstance: {fileID: 1741516427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2140897258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8447967779995490598, guid: 5a2e3ad6331701044bd552bb43a25331, type: 3}
+  m_PrefabInstance: {fileID: 2062675445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2140897259
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140897258}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0

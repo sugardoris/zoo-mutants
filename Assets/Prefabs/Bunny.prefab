@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 817314423598090870}
   - component: {fileID: 5395738506514466684}
   - component: {fileID: 6321669314137328456}
+  - component: {fileID: 3323459179769565270}
   - component: {fileID: 7426138978407137867}
   m_Layer: 6
   m_Name: Bunny
@@ -114,7 +115,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -136,6 +137,37 @@ PolygonCollider2D:
       - {x: -0.75, y: -1.28125}
       - {x: 0.875, y: -1.28125}
       - {x: 0.875, y: 1.28125}
+--- !u!60 &3323459179769565270
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883774607036635179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.75, y: 2.5625}
+    newSize: {x: 1.75, y: 2.5625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.03125, y: 0.84375}
+      - {x: -1.03125, y: -0.40625}
+      - {x: -0.78125, y: -0.84375}
+      - {x: 0.84375, y: -0.84375}
+      - {x: 1.03125, y: -0.46875}
+      - {x: 1.03125, y: 0.84375}
 --- !u!50 &7426138978407137867
 Rigidbody2D:
   serializedVersion: 4

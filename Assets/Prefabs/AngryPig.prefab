@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 506804677136568540}
   - component: {fileID: 506804677136568541}
   - component: {fileID: -9000248365239259110}
+  - component: {fileID: 8698495392612985328}
   - component: {fileID: -6056299860801262937}
   m_Layer: 6
   m_Name: AngryPig
@@ -105,6 +106,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!60 &-9000248365239259110
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756465053957132789}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.0625, y: 1.6875}
+    newSize: {x: 2.0625, y: 1.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.03125, y: 0.84375}
+      - {x: -1.03125, y: -0.40625}
+      - {x: -0.78125, y: -0.84375}
+      - {x: 0.84375, y: -0.84375}
+      - {x: 1.03125, y: -0.46875}
+      - {x: 1.03125, y: 0.84375}
+--- !u!60 &8698495392612985328
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
