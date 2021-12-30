@@ -126,6 +126,9 @@ public class PlayerController : MonoBehaviour
         // Apply movement velocity
         rb.velocity = new Vector2((moveDirection) * maxSpeed, rb.velocity.y);
 
+        // Apply animation
+        gameObject.GetComponent<Animator>().SetFloat("MoveValue", System.Math.Abs(Input.GetAxis("Horizontal")));
+
         // Simple debug
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
@@ -143,6 +146,7 @@ public class PlayerController : MonoBehaviour
         {
             lives--;
             livesText.text = lives.ToString();
+            gameObject.GetComponent<Animator>().SetBool("Hit", true);
         }
         if (collision.gameObject.CompareTag("Fruit"))
         {
