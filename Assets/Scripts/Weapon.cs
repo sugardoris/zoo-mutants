@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public float shotPeriod;
 
     private void Start()
     {
@@ -16,9 +17,13 @@ public class Weapon : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
+            if (GeometryUtility.TestPlanesAABB(planes, gameObject.GetComponent<Collider2D>().bounds))
+            {
+                Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            }
 
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(shotPeriod);
         }
     }
 }
