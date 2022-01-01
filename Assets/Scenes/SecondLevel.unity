@@ -589,7 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78808840}
   - component: {fileID: 78808841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4133,7 +4133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874846836}
   - component: {fileID: 874846837}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5111,7 +5111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126077278}
   - component: {fileID: 1126077279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5538,7 +5538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237008170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyMoveTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23833,7 +23833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1859125980}
   - component: {fileID: 1859125981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24371,7 +24371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956508364}
   - component: {fileID: 1956508365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24984,7 +24984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072689087}
   - component: {fileID: 2072689088}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FlipTrigger (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

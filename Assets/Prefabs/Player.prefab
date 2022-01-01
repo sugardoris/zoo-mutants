@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6036696390556949650}
   - component: {fileID: 3247731650446350671}
   - component: {fileID: -1423782318597423309}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,3 +174,5 @@ MonoBehaviour:
   maxSpeed: 7
   jumpHeight: 10
   gravityScale: 1.5
+  coinsText: {fileID: 0}
+  livesText: {fileID: 0}

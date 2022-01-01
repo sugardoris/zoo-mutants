@@ -18,8 +18,6 @@ public class EnemyChickenController : MonoBehaviour
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         rb.velocity = transform.right * speed;
-
-        //transform.position = cherry.transform.position;
     }
 
     void Update()

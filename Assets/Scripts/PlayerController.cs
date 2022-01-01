@@ -49,12 +49,11 @@ public class PlayerController : MonoBehaviour
         gameOver.SetActive(false);
         restartButton.SetActive(false);
         Time.timeScale = 1f;
+        Physics2D.IgnoreLayerCollision(0, 7);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Movement controls
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && (isGrounded || Mathf.Abs(rb.velocity.x) > 0.01f))
         {
             moveDirection = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) ? -1 : 1;
@@ -153,6 +152,10 @@ public class PlayerController : MonoBehaviour
             lives++;
             livesText.text = lives.ToString();
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.name.StartsWith("FlipTrigger"))
+        {
+
         }
         if (collision.gameObject.CompareTag("Finish"))
         {

@@ -25,5 +25,4 @@ public class EnemyBeeController : MonoBehaviour
 
         transform.position = targetPosition;
     }
-
 }
