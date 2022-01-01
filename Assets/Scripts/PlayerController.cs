@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
+        lives = 1;
         coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
         coinsText.text = coins.ToString();
         livesText = GameObject.Find("LivesText").GetComponent<Text>();
@@ -98,7 +99,6 @@ public class PlayerController : MonoBehaviour
             gameOver.SetActive(true);
             restartButton.SetActive(true);
         }
-
     }
 
     void FixedUpdate()
@@ -159,8 +159,8 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
-            if (SceneManager.GetActiveScene().name == "FirstLevel") SceneManager.LoadScene("SecondLevel");
-            if (SceneManager.GetActiveScene().name == "SecondLevel") SceneManager.LoadScene("ThirdLevel");
+            if (SceneManager.GetActiveScene().name == "Level1") SceneManager.LoadScene("Level2");
+            if (SceneManager.GetActiveScene().name == "Level2") SceneManager.LoadScene("Level3");
         }
     }
 }
