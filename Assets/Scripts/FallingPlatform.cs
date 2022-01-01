@@ -19,16 +19,16 @@ public class FallingPlatform : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
-        if (!GeometryUtility.TestPlanesAABB(planes, rb.GetComponent<Collider2D>().bounds)) {
-            Destroy(gameObject);
-        }
-    }
-
     void DropPlatform()
     {
         rb.isKinematic = false;
+    }
+
+    private void OnBecameInvisible()
+    {
+        if (rb.isKinematic == false)
+        {
+            Destroy(gameObject);
+        }
     }
 }

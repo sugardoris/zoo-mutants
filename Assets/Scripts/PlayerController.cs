@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     // UI
     public Text coinsText;
     public Text livesText;
+    public GameObject message;
+    public Text messageText;
     private static int coins;
     private static int lives = 1;
     private GameObject gameOver;
@@ -40,7 +42,6 @@ public class PlayerController : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
-        lives = 1;
         coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
         coinsText.text = coins.ToString();
         livesText = GameObject.Find("LivesText").GetComponent<Text>();
@@ -49,6 +50,7 @@ public class PlayerController : MonoBehaviour
         restartButton = GameObject.Find("RestartButton");
         gameOver.SetActive(false);
         restartButton.SetActive(false);
+        message.SetActive(false);
         Time.timeScale = 1f;
         Physics2D.IgnoreLayerCollision(0, 7);
     }
@@ -153,14 +155,21 @@ public class PlayerController : MonoBehaviour
             livesText.text = lives.ToString();
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.name.StartsWith("FlipTrigger"))
-        {
-
-        }
         if (collision.gameObject.CompareTag("Finish"))
         {
-            if (SceneManager.GetActiveScene().name == "Level1") SceneManager.LoadScene("Level2");
-            if (SceneManager.GetActiveScene().name == "Level2") SceneManager.LoadScene("Level3");
+            if (SceneManager.GetActiveScene().name == "Level1") {
+                messageText.text = coins.ToString() + " coins will buy some masks, thanks (you already have a helmet).\n\nSecond wave is coming…";
+            }
+            if (SceneManager.GetActiveScene().name == "Level2")
+            {
+                messageText.text = "Please hurry.\n\nWe think we saw walking trees...";
+            }
+            if (SceneManager.GetActiveScene().name == "Level3")
+            {
+                messageText.text = "You're our hero!\n\nScientists will make the vaccine and everyone will be safe again.";
+            }
+            message.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
