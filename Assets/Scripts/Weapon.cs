@@ -20,7 +20,7 @@ public class Weapon : MonoBehaviour
             Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
             if (GeometryUtility.TestPlanesAABB(planes, gameObject.GetComponent<Collider2D>().bounds))
             {
-                Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             }
 
             yield return new WaitForSeconds(shotPeriod);

@@ -10,11 +10,13 @@ public class EnemyBunnyController : MonoBehaviour
     private float directionX;
     private bool facingRight = false;
     private Vector3 localScale;
+    private Quaternion rotation;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         localScale = transform.localScale;
+        rotation = transform.rotation;
         directionX = -1f;
     }
 
@@ -43,6 +45,12 @@ public class EnemyBunnyController : MonoBehaviour
 
         if ((facingRight && (localScale.x < 0)) || !facingRight && (localScale.x > 0)) localScale.x *= -1;
 
-        transform.localScale = localScale;
+        if (localScale.x == 1) rotation.y = 180;
+        if (localScale.x == -1) rotation.y = 0;
+        transform.rotation = rotation;
+        if (transform.childCount > 0)
+        {
+            transform.GetChild(0).gameObject.transform.rotation = rotation;
+        }
     }
 }
