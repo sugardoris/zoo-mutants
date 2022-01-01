@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5180903728587860755}
   - component: {fileID: 8216591594140525509}
   - component: {fileID: 6778518470352955680}
+  - component: {fileID: 750212742224091846}
   m_Layer: 6
   m_Name: Chicken
   m_TagString: Untagged
@@ -175,3 +176,18 @@ PolygonCollider2D:
       - {x: 0.7411499, y: 0.34635854}
       - {x: 0.23830414, y: 0.60695314}
       - {x: -0.019729614, y: 0.91623163}
+--- !u!114 &750212742224091846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8836053448407502575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1849a6a495753da4baf8721a63634aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  floatStrength: 2
+  amplitude: 4

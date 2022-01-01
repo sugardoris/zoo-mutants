@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6321669314137328456}
   - component: {fileID: 3323459179769565270}
   - component: {fileID: 7426138978407137867}
+  - component: {fileID: 4855166883772052826}
   m_Layer: 6
   m_Name: Bunny
   m_TagString: Untagged
@@ -191,3 +192,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4855166883772052826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883774607036635179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aad12a1a193ec848938a6d05401cd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

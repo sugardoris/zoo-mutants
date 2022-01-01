@@ -24,9 +24,9 @@ public class PlayerController : MonoBehaviour
 
     // UI
     public Text scoreText;
-    static int score;
     public Text livesText;
-    private int lives = 1;
+    private static int score;
+    private static int lives = 1;
     private GameObject gameOver;
     private GameObject restartButton;
 
