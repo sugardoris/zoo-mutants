@@ -27,12 +27,17 @@ public class PlayerController : MonoBehaviour
     public Text livesText;
     public GameObject message;
     public Text messageText;
+    public GameObject gameOver;
+    public GameObject restartButton;
     private static int coins;
     private static int lives = 1;
-    private GameObject gameOver;
-    private GameObject restartButton;
 
-    // Use this for initialization
+    // Audio
+    public AudioSource audioCoin;
+    public AudioSource audioLife;
+    public AudioSource audioLifeLost;
+    public AudioSource audioLose;
+
     void Start()
     {
         t = transform;
@@ -44,10 +49,9 @@ public class PlayerController : MonoBehaviour
         facingRight = t.localScale.x > 0;
         coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
         coinsText.text = coins.ToString();
+        if (lives == 0) lives = 1;
         livesText = GameObject.Find("LivesText").GetComponent<Text>();
         livesText.text = lives.ToString();
-        gameOver = GameObject.Find("GameOver");
-        restartButton = GameObject.Find("RestartButton");
         gameOver.SetActive(false);
         restartButton.SetActive(false);
         message.SetActive(false);
@@ -91,16 +95,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
-
-        // End game conditions
-        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
-        if (lives == 0 || !GeometryUtility.TestPlanesAABB(planes, mainCollider.bounds))
-        {
-            coins = 0;
-            Time.timeScale = 0;
-            gameOver.SetActive(true);
-            restartButton.SetActive(true);
-        }
     }
 
     void FixedUpdate()
@@ -141,18 +135,22 @@ public class PlayerController : MonoBehaviour
         {
             coins++;
             coinsText.text = coins.ToString();
+            audioCoin.Play();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
             lives--;
             livesText.text = lives.ToString();
+            audioLifeLost.Play();
             gameObject.GetComponent<Animator>().SetBool("Hit", true);
+            if (lives == 0) Lose();
         }
         if (collision.gameObject.CompareTag("Fruit"))
         {
             lives++;
             livesText.text = lives.ToString();
+            audioLife.Play();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Finish"))
@@ -167,9 +165,27 @@ public class PlayerController : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "Level3")
             {
                 messageText.text = "You're our hero!\n\nScientists will make the vaccine and everyone will be safe again.";
+                GameObject.Find("Music").GetComponent<AudioSource>().Stop();
+                GameObject.Find("MusicEnd").GetComponent<AudioSource>().Play();
             }
             message.SetActive(true);
             Time.timeScale = 0;
         }
+    }
+
+    void OnBecameInvisible()
+    {
+        Lose();
+    }
+
+    // End game conditions
+    private void Lose()
+    {
+        audioLose.Play();
+        GameObject.Find("Music").GetComponent<AudioSource>().Stop();
+        coins = 0;
+        Time.timeScale = 0;
+        gameOver.SetActive(true);
+        restartButton.SetActive(true);
     }
 }

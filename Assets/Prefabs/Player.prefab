@@ -176,3 +176,7 @@ MonoBehaviour:
   gravityScale: 1.5
   coinsText: {fileID: 0}
   livesText: {fileID: 0}
+  message: {fileID: 0}
+  messageText: {fileID: 0}
+  audioCoin: {fileID: 7797430175557029804, guid: 636a30e6fee6ca94591be93211ad5765, type: 3}
+  audioLife: {fileID: 457091469410481078, guid: d85086350b22bb948aa01670e07c76f4, type: 3}
