@@ -23,9 +23,9 @@ public class PlayerController : MonoBehaviour
     private float moveValue = 0f;
 
     // UI
-    public Text scoreText;
+    public Text coinsText;
     public Text livesText;
-    private static int score;
+    private static int coins;
     private static int lives = 1;
     private GameObject gameOver;
     private GameObject restartButton;
@@ -40,8 +40,8 @@ public class PlayerController : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
-        scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
-        scoreText.text = score.ToString();
+        coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
+        coinsText.text = coins.ToString();
         livesText = GameObject.Find("LivesText").GetComponent<Text>();
         livesText.text = lives.ToString();
         gameOver = GameObject.Find("GameOver");
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
         if (lives == 0 || !GeometryUtility.TestPlanesAABB(planes, mainCollider.bounds))
         {
-            score = 0;
+            coins = 0;
             Time.timeScale = 0;
             gameOver.SetActive(true);
             restartButton.SetActive(true);
@@ -138,8 +138,8 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
-            score++;
-            scoreText.text = score.ToString();
+            coins++;
+            coinsText.text = coins.ToString();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Enemy"))
