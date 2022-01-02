@@ -14,9 +14,9 @@ public class GameController : MonoBehaviour
         message.SetActive(false);
     }
 
-    public void ShowMessage(string text)
+    public void ShowIntroMessage()
     {
-        messageText.text = text;
+        messageText.text = "Mutant animals are everywhere.\nWe need you to collect enough coins for a vaccine. Be careful not to get infected!\n\nWelcome to Earth, I guess…";
         message.SetActive(true);
     }
 

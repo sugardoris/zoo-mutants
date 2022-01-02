@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour
         facingRight = t.localScale.x > 0;
         coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
         coinsText.text = coins.ToString();
-        if (lives == 0) lives = 1;
         livesText = GameObject.Find("LivesText").GetComponent<Text>();
         livesText.text = lives.ToString();
         gameOver.SetActive(false);
@@ -102,8 +101,10 @@ public class PlayerController : MonoBehaviour
         Bounds colliderBounds = mainCollider.bounds;
         float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
         Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
+
         // Check if player is grounded
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
+
         //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
         isGrounded = false;
         if (colliders.Length > 0)
@@ -124,9 +125,11 @@ public class PlayerController : MonoBehaviour
         // Apply animation
         gameObject.GetComponent<Animator>().SetFloat("MoveValue", System.Math.Abs(Input.GetAxis("Horizontal")));
 
-        // Simple debug
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
+        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
+        if (!GeometryUtility.TestPlanesAABB(planes, mainCollider.bounds))
+        {
+            Lose();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -173,17 +176,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnBecameInvisible()
-    {
-        Lose();
-    }
-
-    // End game conditions
     private void Lose()
     {
+        coins = 0;
+        lives = 1;
         audioLose.Play();
         GameObject.Find("Music").GetComponent<AudioSource>().Stop();
-        coins = 0;
         Time.timeScale = 0;
         gameOver.SetActive(true);
         restartButton.SetActive(true);
