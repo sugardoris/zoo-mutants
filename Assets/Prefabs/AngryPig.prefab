@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 506804677136568540}
   - component: {fileID: 506804677136568541}
   - component: {fileID: -9000248365239259110}
+  - component: {fileID: 8698495392612985328}
   - component: {fileID: -6056299860801262937}
+  - component: {fileID: 7587609661855447872}
   m_Layer: 6
   m_Name: AngryPig
   m_TagString: Untagged
@@ -114,7 +116,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -135,6 +137,37 @@ PolygonCollider2D:
       - {x: 0.84375, y: -0.84375}
       - {x: 1.03125, y: -0.46875}
       - {x: 1.03125, y: 0.84375}
+--- !u!60 &8698495392612985328
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756465053957132789}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.0625, y: 1.6875}
+    newSize: {x: 2.0625, y: 1.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.97447824, y: 0.8194189}
+      - {x: -0.99069834, y: -0.36975336}
+      - {x: -0.72853327, y: -0.78697824}
+      - {x: 0.8031988, y: -0.79103327}
+      - {x: 0.96636677, y: -0.46469498}
+      - {x: 0.9785328, y: 0.8275299}
 --- !u!50 &-6056299860801262937
 Rigidbody2D:
   serializedVersion: 4
@@ -156,3 +189,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7587609661855447872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756465053957132789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7a114a3fff88e45b398d5b09929544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  floatStrength: 1
+  amplitude: 4

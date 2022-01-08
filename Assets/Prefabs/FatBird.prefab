@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 7205539190918613574}
   - component: {fileID: 7420971315096655039}
   - component: {fileID: -1079003935663002402}
+  - component: {fileID: 6000624058920858649}
   - component: {fileID: -7673120079460458008}
+  - component: {fileID: 1761913498978410566}
   m_Layer: 6
   m_Name: FatBird
   m_TagString: Untagged
@@ -114,7 +116,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -130,11 +132,48 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 1.09375, y: 0.40625}
+      - {x: 0.80088305, y: 0.49000925}
       - {x: 0.46875, y: 1.21875}
-      - {x: -0.53125, y: 1.21875}
-      - {x: -1.09375, y: 0.59375}
+      - {x: -0.25195467, y: 1.2244495}
+      - {x: -0.6815296, y: 0.7514564}
+      - {x: -1.0994459, y: 0.7590472}
       - {x: -1.09375, y: -1.21875}
       - {x: 1.09375, y: -1.21875}
+--- !u!60 &6000624058920858649
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6887795564190787527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.1875, y: 2.4375}
+    newSize: {x: 2.1875, y: 2.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.40273824, y: 1.1850674}
+      - {x: -0.19453125, y: 1.1955837}
+      - {x: -0.6887885, y: 0.7028358}
+      - {x: -1.0597526, y: 0.71265197}
+      - {x: -1.03125, y: -0.40625}
+      - {x: -1.0206509, y: -1.1629448}
+      - {x: 1.0261458, y: -1.1572453}
+      - {x: 1.03125, y: -0.46875}
+      - {x: 1.0799469, y: 0.2691134}
+      - {x: 0.7519547, y: 0.46755728}
 --- !u!50 &-7673120079460458008
 Rigidbody2D:
   serializedVersion: 4
@@ -155,4 +194,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1761913498978410566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6887795564190787527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b43036d6b9702c4bb7189f72ab7edc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  floatStrength: 1
+  amplitude: 1

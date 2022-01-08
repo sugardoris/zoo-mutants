@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 2731362047839032459}
   - component: {fileID: 7975846824065254137}
   - component: {fileID: 8169425615236977464}
+  - component: {fileID: 6829915951744931161}
   - component: {fileID: 6215965944570227750}
+  - component: {fileID: 5936967841995584091}
   m_Layer: 6
   m_Name: BatFlying
   m_TagString: Untagged
@@ -114,7 +116,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -137,6 +139,37 @@ PolygonCollider2D:
       - {x: 1.46875, y: -0.09375}
       - {x: 1.46875, y: 0.59375}
       - {x: 1.09375, y: 0.78125}
+--- !u!60 &6829915951744931161
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697082992979486014}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.9375, y: 1.5625}
+    newSize: {x: 2.9375, y: 1.5625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.03125, y: 0.84375}
+      - {x: -1.03125, y: -0.40625}
+      - {x: -0.78125, y: -0.84375}
+      - {x: 0.84375, y: -0.84375}
+      - {x: 1.03125, y: -0.46875}
+      - {x: 1.03125, y: 0.84375}
 --- !u!50 &6215965944570227750
 Rigidbody2D:
   serializedVersion: 4
@@ -157,4 +190,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &5936967841995584091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697082992979486014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b43036d6b9702c4bb7189f72ab7edc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  floatStrength: 2
+  amplitude: 2

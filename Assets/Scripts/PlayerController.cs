@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
@@ -15,35 +17,57 @@ public class PlayerController : MonoBehaviour
     bool facingRight = true;
     float moveDirection = 0;
     bool isGrounded = false;
-    Rigidbody2D r2d;
+    Rigidbody2D rb;
     CapsuleCollider2D mainCollider;
     Transform t;
     private float moveValue = 0f;
 
-    // Use this for initialization
+    // UI
+    public Text coinsText;
+    public Text livesText;
+    public GameObject message;
+    public Text messageText;
+    public GameObject gameOver;
+    public GameObject restartButton;
+    private static int coins;
+    private static int lives = 1;
+
+    // Audio
+    public AudioSource audioCoin;
+    public AudioSource audioLife;
+    public AudioSource audioLifeLost;
+    public AudioSource audioLose;
+
     void Start()
     {
         t = transform;
-        r2d = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         mainCollider = GetComponent<CapsuleCollider2D>();
-        r2d.freezeRotation = true;
-        r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-        r2d.gravityScale = gravityScale;
+        rb.freezeRotation = true;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        rb.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
+        coinsText = GameObject.Find("CoinsText").GetComponent<Text>();
+        coinsText.text = coins.ToString();
+        livesText = GameObject.Find("LivesText").GetComponent<Text>();
+        livesText.text = lives.ToString();
+        gameOver.SetActive(false);
+        restartButton.SetActive(false);
+        message.SetActive(false);
+        Time.timeScale = 1f;
+        Physics2D.IgnoreLayerCollision(0, 7);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Movement controls
-        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && (isGrounded || Mathf.Abs(rb.velocity.x) > 0.01f))
         {
-            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
+            moveDirection = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) ? -1 : 1;
             moveValue = 1f;
         }
         else
         {
-            if (isGrounded || r2d.velocity.magnitude < 0.01f)
+            if (isGrounded || rb.velocity.magnitude < 0.01f)
             {
                 moveDirection = 0;
                 moveValue = 0f;
@@ -66,9 +90,9 @@ public class PlayerController : MonoBehaviour
         }
 
         // Jumping
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
         {
-            r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+            rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
     }
 
@@ -77,8 +101,10 @@ public class PlayerController : MonoBehaviour
         Bounds colliderBounds = mainCollider.bounds;
         float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
         Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
+
         // Check if player is grounded
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
+
         //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
         isGrounded = false;
         if (colliders.Length > 0)
@@ -94,10 +120,70 @@ public class PlayerController : MonoBehaviour
         }
 
         // Apply movement velocity
-        r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+        rb.velocity = new Vector2((moveDirection) * maxSpeed, rb.velocity.y);
 
-        // Simple debug
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
+        // Apply animation
+        gameObject.GetComponent<Animator>().SetFloat("MoveValue", System.Math.Abs(Input.GetAxis("Horizontal")));
+
+        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
+        if (!GeometryUtility.TestPlanesAABB(planes, mainCollider.bounds))
+        {
+            Lose();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            coins++;
+            coinsText.text = coins.ToString();
+            audioCoin.Play();
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            lives--;
+            livesText.text = lives.ToString();
+            audioLifeLost.Play();
+            gameObject.GetComponent<Animator>().SetBool("Hit", true);
+            if (lives == 0) Lose();
+        }
+        if (collision.gameObject.CompareTag("Fruit"))
+        {
+            lives++;
+            livesText.text = lives.ToString();
+            audioLife.Play();
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            if (SceneManager.GetActiveScene().name == "Level1") {
+                messageText.text = coins.ToString() + " coins will buy some masks, thanks (you already have a helmet).\n\nSecond wave is coming…";
+            }
+            if (SceneManager.GetActiveScene().name == "Level2")
+            {
+                messageText.text = "Please hurry.\n\nWe think we saw walking trees...";
+            }
+            if (SceneManager.GetActiveScene().name == "Level3")
+            {
+                messageText.text = "You're our hero!\n\nScientists will make the vaccine and everyone will be safe again.";
+                GameObject.Find("Music").GetComponent<AudioSource>().Stop();
+                GameObject.Find("MusicEnd").GetComponent<AudioSource>().Play();
+            }
+            message.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
+    private void Lose()
+    {
+        coins = 0;
+        lives = 1;
+        audioLose.Play();
+        GameObject.Find("Music").GetComponent<AudioSource>().Stop();
+        Time.timeScale = 0;
+        gameOver.SetActive(true);
+        restartButton.SetActive(true);
     }
 }
