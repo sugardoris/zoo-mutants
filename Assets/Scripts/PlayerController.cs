@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Finish"))
         {
             if (SceneManager.GetActiveScene().name == "Level1") {
-                messageText.text = coins.ToString() + " coins will buy some masks, thanks (you already have a helmet).\n\nSecond wave is coming…";
+                messageText.text = coins.ToString() + " coins will buy some masks, thanks (you already have a helmet).\n\nSecond wave is comingï¿½";
             }
             if (SceneManager.GetActiveScene().name == "Level2")
             {

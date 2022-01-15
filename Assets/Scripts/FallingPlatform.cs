@@ -4,31 +4,28 @@ using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    private Rigidbody2D rigidBody;
+    public bool isLevel2;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rigidBody = GetComponent<Rigidbody2D>();
     }
     
     void OnCollisionEnter2D(Collision2D collision2D)
     {
         if (collision2D.gameObject.name.Equals("Player"))
         {
-            Invoke("DropPlatform", 0.5f);
+            Invoke("DropPlatform", 0.1f);
+            if (isLevel2)
+                Destroy(gameObject, 2.5f);
+            else
+                Destroy(gameObject, 1f);
         }
     }
 
     void DropPlatform()
     {
-        rb.isKinematic = false;
-    }
-
-    private void OnBecameInvisible()
-    {
-        if (rb.isKinematic == false)
-        {
-            Destroy(gameObject);
-        }
+        rigidBody.isKinematic = false;
     }
 }

@@ -214,5 +214,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 8291465522750011169}
-  bulletPrefab: {fileID: 7666592148829802672, guid: 56892c17b5a708545adf850aaf8b8287, type: 3}
+  bulletPrefab: {fileID: 2797378560411345423, guid: 3d33b2c2cfe2934408ff137298f17639, type: 3}
   shotPeriod: 0

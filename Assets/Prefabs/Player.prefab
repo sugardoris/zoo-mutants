@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -1423782318597423309}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,5 +178,9 @@ MonoBehaviour:
   livesText: {fileID: 0}
   message: {fileID: 0}
   messageText: {fileID: 0}
+  gameOver: {fileID: 0}
+  restartButton: {fileID: 0}
   audioCoin: {fileID: 7797430175557029804, guid: 636a30e6fee6ca94591be93211ad5765, type: 3}
   audioLife: {fileID: 457091469410481078, guid: d85086350b22bb948aa01670e07c76f4, type: 3}
+  audioLifeLost: {fileID: 0}
+  audioLose: {fileID: 0}
