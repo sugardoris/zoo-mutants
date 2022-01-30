@@ -143,10 +143,10 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            gameObject.GetComponent<Animator>().SetBool("Hit", true);
+            audioLifeLost.Play();
             lives--;
             livesText.text = lives.ToString();
-            audioLifeLost.Play();
-            gameObject.GetComponent<Animator>().SetBool("Hit", true);
             if (lives == 0) Lose();
         }
         if (collision.gameObject.CompareTag("Fruit"))

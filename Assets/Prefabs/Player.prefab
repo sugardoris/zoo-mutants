@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 7
-  jumpHeight: 10
+  jumpHeight: 8
   gravityScale: 1.5
   coinsText: {fileID: 0}
   livesText: {fileID: 0}
